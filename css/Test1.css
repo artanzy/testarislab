@@ -1,0 +1,68 @@
+body {
+    font-family: 'RSU';
+    background: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'RSU';
+}
+
+.url-row {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.url-text {
+    font-size: 20px;
+    margin-right: 2%;
+}
+
+.url-input {
+    width: 60%;
+    height: 30px;
+    margin-right: 2%;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.show-block {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    align-items: center;
+}
+
+.confirm-button {
+    width: 15%;
+    height: 30px;
+    font-size: 18px;
+    background: #CCCCCC;
+    border: 1px solid black;
+    font-family: 'RSU';
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.show-image {
+    width: 100%;
+    height: auto;
+}

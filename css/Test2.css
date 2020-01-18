@@ -1,0 +1,116 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.test2-container{
+    width: 30%;
+    height: 450px;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(238,238,238,1);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(238,238,238,1);
+    box-shadow: 0px 0px 10px 3px rgba(238,238,238,1);
+    border-radius: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test2-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    width: 80%;
+}
+
+.test2-header {
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+
+.test2-subheader {
+    font-size: 18px;
+    color: #a6a6a6;
+}
+
+.test2-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 250px;
+}
+
+.test2-input-header {
+    font-size: 16px;
+    color: #a6a6a6;
+}
+
+.test2-input {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #DDDDDD;
+    font-family: 'RSU';
+    margin-bottom: 25px;
+    line-height: 30px;
+    padding-top: 5px;
+}
+
+.test2-button {
+    background: #DF208E;
+    border: 0;
+    border-radius: 25px;
+    width: 35%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-top: auto;
+    color: white;
+    font-family: 'RSU';
+    font-size: 16px;
+}
+
+.test2-warning {
+    color: red;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.test2-otp-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.test2-otp-input-first {
+    width: 10%;
+    height: 35px;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+    font-size: 22px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.test2-otp-input {
+    width: 10%;
+    height: 35px;
+    border: 1px solid #DDDDDD;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.test2-subtext {
+    font-size: 25px;
+    color: black;
+}
