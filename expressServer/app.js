@@ -11,7 +11,6 @@ app.use(bodyParser.json());
 app.use(cors())
 // get all todos
 app.post('/', (req, res) => {
-    console.log(req.body)
     var token = req.body.token;
     var message = req.body.message;
    

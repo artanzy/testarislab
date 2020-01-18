@@ -13,6 +13,7 @@ class Test3 extends Component {
             token: 'eWpuYJgPODNdYcjYAHRfMb6Ej0kb5O1kDLpkNfNzwqs',
             message: this.state.message
         }).catch(error => console.log(error))
+        this.setState({message : ''})
     }
 
     handleChange(e){
