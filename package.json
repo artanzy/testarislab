@@ -1,18 +1,19 @@
 {
   "name": "testarislab",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+    "dev": "webpack-dev-server --config ./webpack/webpack.dev.config.js"
   },
+  "proxy": "https://notify-api.line.me/api/notify",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
     "convert-array-to-csv": "^1.0.9",
     "date-fns": "^2.8.1",
+    "express": "^4.17.1",
     "file-loader": "^4.0.0",
     "firebase": "^7.5.0",
     "js-file-download": "^0.4.8",
@@ -55,5 +56,14 @@
     "plugins": [
       "transform-object-rest-spread"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artanzy/testarislab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artanzy/testarislab/issues"
+  },
+  "homepage": "https://github.com/artanzy/testarislab#readme",
+  "description": ""
 }
